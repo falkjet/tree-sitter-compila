@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "compila",
+      "camelcase": "Compila",
+      "title": "Compila",
+      "scope": "source.compila",
+      "file-types": [
+        "cmp"
+      ],
+      "injection-regex": "^compila$",
+      "class-name": "TreeSitterCompila"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Compila grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Falk Markus Dursun Jetlund",
+        "email": "fmjetlun@ifi.uio.no"
+      }
+    ],
+    "links": {
+      "repository": "https://codeberg.org/falkjet/compila"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}

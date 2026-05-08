@@ -10,7 +10,8 @@
         "cmp"
       ],
       "injection-regex": "^compila$",
-      "class-name": "TreeSitterCompila"
+      "class-name": "TreeSitterCompila",
+      "highlights": "queries/highlights.scm"
     }
   ],
   "metadata": {
